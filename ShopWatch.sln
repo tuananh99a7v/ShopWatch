@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWatch.DataAccessLayer",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWatch.BusinessLogicLayer", "ShopWatch.BusinessLogicLayer\ShopWatch.BusinessLogicLayer.csproj", "{3A82E80F-C719-43EF-9066-2DE7338032C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWatch.WebApp", "ShopWatch.WebApp\ShopWatch.WebApp.csproj", "{4C946ABB-6270-46AF-9441-671F246A035D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3A82E80F-C719-43EF-9066-2DE7338032C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A82E80F-C719-43EF-9066-2DE7338032C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A82E80F-C719-43EF-9066-2DE7338032C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C946ABB-6270-46AF-9441-671F246A035D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C946ABB-6270-46AF-9441-671F246A035D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C946ABB-6270-46AF-9441-671F246A035D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C946ABB-6270-46AF-9441-671F246A035D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
