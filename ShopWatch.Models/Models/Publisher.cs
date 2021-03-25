@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShopWatch.Models.Models
+{
+	public class Publisher
+	{
+		[Key]
+		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+		public int PublisherId { get; set; }
+
+		[Required(ErrorMessage = "Please enter {0}.")]
+		[StringLength(100, ErrorMessage = "The {0} must be between 10 and 100 characters.", MinimumLength = 10)]
+		[Display(Name = "Category Name")]
+		public string PublisherName { get; set; }
+
+		[Required(ErrorMessage = "Please enter {0}.")]
+		[StringLength(1000, ErrorMessage = "The {0} must be between 20 and 1000 characters.", MinimumLength = 20)]
+		[Display(Name = "Description")]
+		public string Description { get; set; }
+
+		public virtual ICollection<Watch> Watches { get; set; }
+	}
+}

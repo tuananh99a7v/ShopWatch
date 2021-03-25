@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWatch.Models", "ShopWatch.Models\ShopWatch.Models.csproj", "{10EA0265-8510-4589-AA6B-CDF9743AA0A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWatch.DataAccessLayer", "ShopWatch.DataAccessLayer\ShopWatch.DataAccessLayer.csproj", "{6E31E86E-8ED5-4047-893B-FC0B2E8144B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWatch.BusinessLogicLayer", "ShopWatch.BusinessLogicLayer\ShopWatch.BusinessLogicLayer.csproj", "{3A82E80F-C719-43EF-9066-2DE7338032C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{10EA0265-8510-4589-AA6B-CDF9743AA0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10EA0265-8510-4589-AA6B-CDF9743AA0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10EA0265-8510-4589-AA6B-CDF9743AA0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E31E86E-8ED5-4047-893B-FC0B2E8144B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E31E86E-8ED5-4047-893B-FC0B2E8144B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E31E86E-8ED5-4047-893B-FC0B2E8144B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E31E86E-8ED5-4047-893B-FC0B2E8144B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A82E80F-C719-43EF-9066-2DE7338032C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A82E80F-C719-43EF-9066-2DE7338032C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A82E80F-C719-43EF-9066-2DE7338032C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A82E80F-C719-43EF-9066-2DE7338032C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

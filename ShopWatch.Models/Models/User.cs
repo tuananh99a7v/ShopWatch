@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShopWatch.Models.Models
 {
-	public class Brand
+	public class User
 	{
 	}
 }
